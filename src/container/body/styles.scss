@@ -1,0 +1,22 @@
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.content-story {
+    padding: 0 20%;
+}
+
+.button {
+    padding-top: 70px;
+}
+
+@media all and (max-width: 768px) {
+    .button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
